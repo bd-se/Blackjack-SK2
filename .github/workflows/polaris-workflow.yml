@@ -29,7 +29,7 @@ jobs:
         uses: blackduck-inc/black-duck-security-scan@v2
         with:
           ### SCANNING: Required fields
-          polaris_server_url: ${{ vars.POLARIS_URL }}
-          polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
+          polaris_server_url: "https://polaris.blackduck.com/"
+          polaris_access_token: "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"
           ### ASSESSMENT TYPES
           polaris_assessment_types: SAST,SCA  # Comma-separated list: SAST,SCA,DAST
