@@ -9,7 +9,6 @@ on:
       - develop
       - stage
       - release
-      - feature
   pull_request:
     branches:
       - main
@@ -17,7 +16,6 @@ on:
       - develop
       - stage
       - release
-      - feature
   workflow_dispatch: {}
 jobs:
   polaris:
